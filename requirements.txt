@@ -1,0 +1,17 @@
+# Interfaz y datos
+pillow
+numpy
+pandas
+requests
+
+# CRM (voz a texto, sentimiento y enlaces)
+openai-whisper        # alternativa: faster-whisper
+yt-dlp
+pysentimiento         # opcional: si no está, el CRM usa un lexicón de respaldo
+
+# Emociones de YouTube (además requiere Ollama con el modelo llama3.1)
+youtube-comment-downloader
+
+# Gestos (opcional: si no se instalan, solo falla esa pestaña)
+mediapipe
+opencv-python
